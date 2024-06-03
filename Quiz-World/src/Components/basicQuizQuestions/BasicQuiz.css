@@ -45,3 +45,11 @@ cursor: pointer;
     margin: auto;
     font-size: 18px;
 }
+.container .correct{
+    background: white;
+    background-color: #00d397;
+}
+.container .wrong{
+    background: white;
+    background-color: #FF4A4A;
+}
