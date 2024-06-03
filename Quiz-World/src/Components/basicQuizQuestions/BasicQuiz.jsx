@@ -6,15 +6,19 @@ const BasicQuiz = () => {
 
     let [index, setIndex] = useState(0);
     let [question, setQuestion] = useState(basic[index]);
+    let [lock, setLock] = useState(false);
 
-    const checkAns = (e, ans) => {
-        if(question.ans === ans) {
-            e.target.classList.add('correct')
+    let
+
     const checkAns = (e,ans) => {
+        if (lock === false){
             if (question.ans===ans) {
                 e.target.classList.add('correct');
+                setLock(true)
             } else {
                 e.target.classList.add('wrong');
+                setLock(true)
+            }
         }
     }
     return (
