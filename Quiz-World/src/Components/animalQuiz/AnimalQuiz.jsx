@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import '../basicQuizQuestions/BasicQuiz.css';
 import { animalQuiz } from "../../../public/Questions/animalsQ";
-import sound from '../../../public/sounds/ElephantSound/sound.mp3'
 
 const AnimalQuiz = () => {
     let [index, setIndex] = useState(0);
