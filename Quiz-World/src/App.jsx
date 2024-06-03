@@ -1,10 +1,10 @@
 import React from "react"
-import BasicQuiz from "./Components/basicQuizQuestions/BasicQuiz"
+import AnimalQuiz from "./Components/animalQuiz/AnimalQuiz"
 
 const App = () => {
   return (
     <>
-        <BasicQuiz />
+        <AnimalQuiz />
         <footer>All rights reserved &copy;</footer>
     </>
   )
